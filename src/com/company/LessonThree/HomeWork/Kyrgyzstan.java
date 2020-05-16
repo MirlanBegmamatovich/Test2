@@ -2,65 +2,65 @@ package com.company.LessonThree.HomeWork;
 
 public class Kyrgyzstan {
     int id;
-    String name;
-    double balanse;
+    String region;
+    double population;
 
     public static void main(String[] args){
-        Kyrgyzstan aA = new Kyrgyzstan();
-        aA.id = 1;
-        aA.name = "Чуй";
-        aA.balanse = 1638973;
-        System.out.println(" ID области " + aA.id);
-        System.out.println("Наименование области " + aA.name);
-        System.out.println("Население " + aA.balanse);
+        Kyrgyzstan Chui = new Kyrgyzstan();
+        Chui.id = 1;
+        Chui.region = "Чуй";
+        Chui.population = 1638973;
+        System.out.println(" ID области " + Chui.id);
+        System.out.println("Наименование области " + Chui.region);
+        System.out.println("Население " + Chui.population);
 
-        Kyrgyzstan aB = new Kyrgyzstan();
-         aB.id = 2;
-         aB.name = "Ош";
-         aB.balanse = 1362359;
-        System.out.println(" ID области " + aB.id);
-        System.out.println("Наименование области " + aB.name);
-        System.out.println("Население " + aB.balanse);
+        Kyrgyzstan Osh = new Kyrgyzstan();
+        Osh.id = 2;
+        Osh.region = "Ош";
+        Osh.population = 1362359;
+        System.out.println(" ID области " + Osh.id);
+        System.out.println("Наименование области " + Osh.region);
+        System.out.println("Население " + Osh.population);
 
-        Kyrgyzstan aC = new Kyrgyzstan();
-        aC.id = 3;
-        aC.name = "Жалалабад";
-        aC.balanse = 1009889;
-        System.out.println("ID области " + aC.id);
-        System.out.println("Наименование области " + aC.name);
-        System.out.println("Население " + aC.balanse);
+        Kyrgyzstan Jalalabad = new Kyrgyzstan();
+        Jalalabad.id = 3;
+        Jalalabad.region = "Жалалабад";
+        Jalalabad.population = 1009889;
+        System.out.println("ID области " + Jalalabad.id);
+        System.out.println("Наименование области " + Jalalabad.region);
+        System.out.println("Население " + Jalalabad.population);
 
-        Kyrgyzstan aD = new Kyrgyzstan();
-        aD.id = 4;
-        aD.name = "Баткен";
-        aD.balanse = 428636;
-        System.out.println("ID области " + aD.id);
-        System.out.println("Наименование области " + aD.name);
-        System.out.println("Население " + aD.balanse);
+        Kyrgyzstan Batken = new Kyrgyzstan();
+        Batken.id = 4;
+        Batken.region = "Баткен";
+        Batken.population = 428636;
+        System.out.println("ID области " + Batken.id);
+        System.out.println("Наименование области " + Batken.region);
+        System.out.println("Население " + Batken.population);
 
-        Kyrgyzstan aE = new Kyrgyzstan();
-        aE.id = 5;
-        aE.name = "Талас";
-        aE.balanse = 226779;
-        System.out.println("ID области " + aE.id);
-        System.out.println("Наименование области " + aE.name);
-        System.out.println("Население " + aE.balanse);
+        Kyrgyzstan Talas = new Kyrgyzstan();
+        Talas.id = 5;
+        Talas.region = "Талас";
+        Talas.population = 226779;
+        System.out.println("ID области " + Talas.id);
+        System.out.println("Наименование области " + Talas.region);
+        System.out.println("Население " + Talas.population);
 
-        Kyrgyzstan aF = new Kyrgyzstan();
-        aF.id = 5;
-        aF.name = "Нарын";
-        aF.balanse = 257768;
-        System.out.println("ID области " + aF.id);
-        System.out.println("Наименование области " + aF.name);
-        System.out.println("Население " + aF.balanse);
+        Kyrgyzstan Naryn = new Kyrgyzstan();
+        Naryn.id = 5;
+        Naryn.region = "Нарын";
+        Naryn.population = 257768;
+        System.out.println("ID области " + Naryn.id);
+        System.out.println("Наименование области " + Naryn.region);
+        System.out.println("Население " + Naryn.population);
 
-        Kyrgyzstan aG = new Kyrgyzstan();
-        aG.id = 6;
-        aG.name = "Ысык-Кол";
-        aG.balanse = 438389;
-        System.out.println("ID области " + aG.id);
-        System.out.println("Наименование области " + aG.name);
-        System.out.println("Население " + aG.balanse);
+        Kyrgyzstan Issyk_Kul = new Kyrgyzstan();
+        Issyk_Kul.id = 6;
+        Issyk_Kul.region = "Ысык-Кол";
+        Issyk_Kul.population = 438389;
+        System.out.println("ID области " + Issyk_Kul.id);
+        System.out.println("Наименование области " + Issyk_Kul.region);
+        System.out.println("Население " + Issyk_Kul.population);
 
 
     }
