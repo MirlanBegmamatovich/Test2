@@ -12,6 +12,6 @@ public class BankAccount1 {
         aA.balance = 1000000000;
         System.out.println(" ID пользователя" +aA.id);
         System.out.println("Имя пользователя" +aA.name);
-        System.out.println("Баланс пользователя" aA.balance+"долларов");
+        System.out.println("Баланс пользователя"+aA.balance+"долларов");
     }
 }
