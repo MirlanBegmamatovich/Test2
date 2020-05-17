@@ -104,7 +104,11 @@ public class Osh_region {
         System.out.println("");
 
         boolean a = Chon_Alay.population>Alay.population;
+        double b = Osh_region.population;
+        double c = Chon_Alay.population;
+        double e = b*c/100;
         System.out.println(a);
+        System.out.println(e);
 
 
 
